@@ -1,0 +1,125 @@
+===========================================================
+ANSWER 1
+===========================================================
+i came to security from cryptography and thought of the problem
+in a military like fashio nmost writings about security
+come from this perspective and it can be summed up pretty easily
+security threats are to be avoided using preventive counter
+measures this is how encryption works the threat is eavesdropping
+and encryption provides the prophylactic this could all be explained
+with block diagrams alice is communicating with bob both are
+identified by boxes and there is aline between them signifying the
+communication eve is the eavesdroppers heal so is a box and has
+a dotted line attached to the communications lines he is able to
+intercept the communication the only way to prevent eve from
+learning what alice and bob are talking about is through a
+preventive countermeasure encryption theres no detection theres
+no response theres no risk management you have to avoid the threat
+for decades we have used this approach to computer security we draw
+boxes around the different players and lines between them we
+define different attackers eavesdroppers impersonators thieves
+and their capabilities we use preventive countermeasures like
+encryption and access control to avoid different threats if we
+can avoid the threats weve won if we cant weve lost imagine my
+surprise when i learned that the world doesnt work this way some
+history from the vigenere wiki page the first well documented
+description of a polyalphabetic cipher was formulated by leon
+battista alberti a round and used a metal cipher disc to switch
+between cipher alphabets albertis system only switched alphabets
+after several words and switches were indicated by writing the letter
+of the corresponding alphabet in the cipher text later in johannes
+trithemius in his work poligraphia invented the tabularecta a
+critical component of the vigenre cipher the trithemius cipher
+however only provided a progressive rigid and predictable system
+for switching between cipher alphabets what is now known as the
+vigenere cipher was originally described by giovan battista bellaso
+in his book lacifradel siggiovan battista bellaso he built upon
+the tabularecta of trithemius but added a repeating counter sign
+a key to switch cipher alphabets every letter whereas alberti and
+trithemius used a fixed pattern of substitutions bellasos scheme
+meant the pattern of substitutions could be easily changed simply
+by selecting a new key keys were typically single words or short
+phrases known to both parties in advance or transmitted out of band
+along with themes sage bell a sos method thus required strong
+security for only the key as it is relatively easy to secure a
+short key phrase say by a previous private conversation bellasos
+system was considerably more secure blaisede vigenere published
+his description of a similar but stronger autokey cipher before
+the court of henry iii of france in later in the th century the
+invention of bellasos cipher was misattributed to vigenere
+david kahn in his book the code breakers lamented the misattribution
+by saying that history had ignored this important contribution and
+instead named a regressive and elementary cipher for him vigenere
+though he had nothing to do with it the vigenere cipher gained
+reputation for being exceptionally strong noted author and mathematician
+charles lutwidgedodg son lewis carroll called the vigenere
+cipher unbreakable in his piece the alphabet cipher in a
+childrens magazine in scientific american described the vigenre
+cipher as impossible of translation this reputation was not deserved
+charles babbage is known to have broken a variant of the cipher as
+early as however he didnt publish his work kasiski entirely
+broke the cipher and published the technique in the th century
+even before this though some skilled cryptanalysts could occasionally
+break the cipher in the th century cryptographic sliderule used as a
+calculation aid by the swiss army between and the vigenere cipher is
+simple enough to be a field cipher if it is used in conjunction with
+cipher disks the confederate states of america for example used a brass
+cipher disk to implement the vigenere cipher during the american
+civil war the confederacys messages were far from secret and the
+union regularly cracked their messages throughout the war the
+confederate leadership primarily relied upon three key phrases
+manchester bluff complete victory and as the war came to a close come
+retribution gilbert vernam tried to repair the broken cipher creating
+the vernam vigenere cipher in but no matter what he did the cipher
+was still vulnerable to cryptanalysis vernams work however eventually
+led to the one time pad a provably unbreakable cipher
+
+===========================================================
+ANSWER 2
+===========================================================
+# Duplicates matrix for a depth of 50
+# Longest peak-to-peak distances marked with !< >!
+# A peak-to-peak of 10 occurred three times making a
+# key size of 9 the most likely
+
+[140, 186, 169, 162, 169, 181, 150, 150, !< 272, 140,
+ 151, 181, 161, 147, 138, 145, 121, 248 >!, 134, 147,
+ 167, 162, 147, 174, 153, 129, 257, 156, 159, 164,
+ 174, 160, 206, 144, 148, !< 264, 151, 174, 168, 162,
+ 158, 164, 173, 141, 265 >!, 131, 152, 156, 150]
+
+# Calculating the standard deviations confirmed this
+
+Sum of  5 std. devs.: 3.9
+Sum of  6 std. devs.: 4.4
+Sum of  7 std. devs.: 3.9
+Sum of  8 std. devs.: 3.9
+Sum of  9 std. devs.: 5.0 <----
+Sum of 10 std. devs.: 3.9
+Sum of 11 std. devs.: 3.9
+Sum of 12 std. devs.: 4.6
+Sum of 13 std. devs.: 4.1
+Sum of 14 std. devs.: 4.0
+Sum of 15 std. devs.: 4.5
+===========================================================
+ANSWERS RELATING TO THE DECRYPTION
+===========================================================
+The key was calculated by multiplying the frequencies
+with the know letter frequencies for the English language
+vector multiplication was performed using a shifting algorithm
+to find the sum of products producing the largest value.
+This value is assumed to be most reflective of the normal
+frequencies, the number of shifts is incorporated in the key.
+This gives us the following key:
+
+KEY = [8, 13, 19, 4, 6, 17, 8, 19, 24]
+
+The key corresponds to the following keyword:
+
+KEYWORD = integrity
+===========================================================
+ANSWERS TO REMAINING QUESTIONS
+===========================================================
+If all printable characters would be allowed the most
+frequent character would most likely be the whitespace
+character.
